@@ -41,7 +41,32 @@ class Vampire {
   closestCommonAncestor(vampire) {}
 
   // Returns the vampire object with that name, or null if no vampire exists with that name
-  vampireWithName(name) {}
+  vampireWithName(name) {
+    let luckyVamp = null;
+
+    // base case name has been found
+
+    let currentVamp = this;
+    // recursive case name hasn't been found
+    while (currentVamp.creator) {
+      // if we find the name end the loop
+      if (currentVamp.name === name) {
+        return currentVamp;
+        // otherwise go up one level
+      } else {
+        currentVamp = currentVamp.creator;
+      }
+    }
+
+    // Our vampire should be the eldest one now
+      for (const child of currentVamp.offspring) {
+        if(child.name ===)
+    
+
+    // second base case all vampires visited
+
+    return luckyVamp;
+  }
 
   // Returns the total number of vampires that exist
   get totalDescendents() {}
