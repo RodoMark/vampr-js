@@ -9,41 +9,27 @@ class Vampire {
   /** Simple tree methods **/
 
   // Adds the vampire as an offspring of this vampire
-  addOffspring(vampire) {
-
-  }
+  addOffspring(vampire) {}
 
   // Returns the total number of vampires created by that vampire
-  get numberOfOffspring() {
-
-  }
+  get numberOfOffspring() {}
 
   // Returns the number of vampires away from the original vampire this vampire is
-  get numberOfVampiresFromOriginal() {
-
-  }
+  get numberOfVampiresFromOriginal() {}
 
   // Returns true if this vampire is more senior than the other vampire. (Who is closer to the original vampire)
-  isMoreSeniorThan(vampire) {
-
-  }
+  isMoreSeniorThan(vampire) {}
 
   /** Tree traversal methods **/
 
   // Returns the vampire object with that name, or null if no vampire exists with that name
-  vampireWithName(name) {
-    
-  }
+  vampireWithName(name) {}
 
   // Returns the total number of vampires that exist
-  get totalDescendents() {
-    
-  }
+  get totalDescendents() {}
 
   // Returns an array of all the vampires that were converted after 1980
-  get allMillennialVampires() {
-    
-  }
+  get allMillennialVampires() {}
 
   /** Stretch **/
 
@@ -52,10 +38,16 @@ class Vampire {
   // For example:
   // * when comparing Ansel and Sarah, Ansel is the closest common anscestor.
   // * when comparing Ansel and Andrew, Ansel is the closest common anscestor.
-  closestCommonAncestor(vampire) {
+  closestCommonAncestor(vampire) {}
 
-  }
+  // Returns the vampire object with that name, or null if no vampire exists with that name
+  vampireWithName(name) {}
+
+  // Returns the total number of vampires that exist
+  get totalDescendents() {}
+
+  // Returns an array of all the vampires that were converted after 1980
+  get allMillennialVampires() {}
 }
 
 module.exports = Vampire;
-
